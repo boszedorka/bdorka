@@ -1,0 +1,219 @@
+/*Import Normalize CSS*/
+@import "normalize.css";
+
+/*Import Google Font*/
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100&display=swap');
+
+html{
+scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  }
+
+
+.container{
+  max-width: 1080px;
+  margin:auto;
+}
+
+
+.p1{padding: 1em}
+
+.p2{padding: 2em}
+
+.p3{padding: 3em}
+.p4{padding: 4em}
+
+.m1{margin: 1em}
+
+.m2{margin: 2em}
+
+.m3{margin: 3em}
+
+.mx1{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.my1{
+  margin-top: 1em;
+  margin-bottom: 1em
+}
+
+.mx2{
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.my2{
+  margin-top: 2em;
+  margin-bottom: 2em
+}
+
+.mx3{
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.my3{
+  margin-top: 3em;
+  margin-bottom: 3em
+}
+
+
+#logo{
+  float:left;
+}
+nav{
+  float:right;
+  text-align: right;
+  font-weight: 400;
+}
+nav a:hover{
+  color:black;
+
+}
+ a{
+   color:     #8B4513;
+ }
+
+ a:hover{
+   color: black;
+   font-weight: 300;
+ }
+#banner h1, #banner h2{
+  text-align: center;
+  color:white;
+}
+
+#banner{
+  background-image: url(https://i.pinimg.com/564x/6a/60/ba/6a60ba1b0d8930dc9d6356c3eb7a279d.jpg);
+  background-position: center;
+  background-size: contain;
+  clear:both;
+}
+h1{
+  font-size: 4em;
+  font-weight: 300;
+  text-align: center;
+}
+h2{
+  font-size: 3em;
+  text-align: center;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+
+}
+/*weird alignment glitch happening*/
+#about img{
+  border-radius: 150px;
+  height:200px;
+  float:left;
+
+
+}
+
+#about > h2{
+  text-align: left;
+  background-color:   #D2B48C;
+  color:white;
+  padding:10px; 
+}
+
+#about{
+  border-radius: 5px;
+  float:left;
+
+}
+
+footer{
+  background-color:   #D2B48C;
+  color:white;
+
+}
+
+footer a, footer a:visited{
+  text-decoration: none;
+  color:white;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: grey;
+}
+
+footer ul li{
+  list-style: none;
+}
+
+footer ul {
+  float:left;
+}
+
+footer img{
+  height:25px;
+}
+
+
+
+#socialmedia{
+  float:right;
+
+}
+
+#socialmedia img{
+  padding-right: 25px;
+}
+
+#portfolio{
+  clear:both;
+  }
+
+.portfoliocontainer{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+
+
+}
+
+.portfolioimg {
+  width:300px;
+  margin: 15px;
+  text-align: center;
+}
+input, select, textarea{
+  width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color:   #D2B48C;
+}
+
+
+footer{
+clear:both;
+margin-top: 200px;
+}
